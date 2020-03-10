@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+h3 {
+  color: blue;
+}
+
 @media print { 
   /* All your print styles go here */
   p {
