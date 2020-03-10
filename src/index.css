@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media print { 
+  /* All your print styles go here */
+  p {
+    color: red;
+    text-align: center;
+  }
+ }
