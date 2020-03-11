@@ -8,7 +8,7 @@ function DownloadPDF(props) {
 
     //This will eliminate html which you don't want to convert into pdf.
     const specialElementHandlers = {
-      '#doNotInclude': function (element, renderer) {
+      '.doNotInclude': function (element, renderer) {
         return true;
       },
     };
